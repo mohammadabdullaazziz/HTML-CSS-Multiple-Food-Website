@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #d3d5d6;
+    /* max-width: 1200px;
+    margin: 0 auto;
+    */
+} 
+
+/* nav section code start  */
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 5px 5px 2px black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    padding: 10px 100px;
+    flex-wrap: wrap;
+    border-bottom: 4px solid #02a302;
+    position: sticky;
+    top: 0;
+    right: 0;
+    
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+   list-style-type: none;
+   margin: 10px 5px;
+}
+
+nav ul li a{
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+   padding: 10px 20px;
+   transition: 0.5s;
+   cursor: pointer;
+}
+
+nav ul li a:hover{
+    background-color: gray;
+    color: tomato;
+    border-radius: 5px;
+}
+/* nav section code end  */
+
+/* header section code start  */
+header{
+    background-image: url("/image/food.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 250px 0;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 5px 5px 2px black;
+}
+
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box-icon{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: green;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 3px 3px 0;
+  margin-left: -15px;
+}
+
+.search-box input{
+    width: 350px;
+    height: 25px;
+    border-radius: 3px;
+    font-size: 17px;
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+}
+/* header section code end  */
+
+/* blog section code start */
+#blog{
+    padding: 0px 4rem;
+  }
+  
+  #blog h4{
+    text-align: center;
+    font-size: 28px;
+    padding-block: 15px;
+  }
+  
+  .blog-container{
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+   
+  }
+  
+  .blog-item{
+    width: 320px;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 10px 12px 10px black;
+  }
+  
+  .blog-item img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .blog-item h5{
+    color: black;
+    font-size: 20px;
+    margin: 10px 0;
+  }
+
+  .btn{
+    padding: 5px 10px;
+    background-color: green;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5px;
+  }
+
+  .btn:hover{
+    background-color: #02a302;
+    color: white;
+  }
+  /* blog section code end */

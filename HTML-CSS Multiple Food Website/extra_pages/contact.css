@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #d3d5d6;
+    /* max-width: 1200px;
+    margin: 0 auto;
+    */
+} 
+
+/* nav section code start  */
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 5px 5px 2px black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    padding: 10px 100px;
+    flex-wrap: wrap;
+    border-bottom: 4px solid #02a302;
+    position: sticky;
+    top: 0;
+    right: 0;
+    
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+   list-style-type: none;
+   margin: 10px 5px;
+}
+
+nav ul li a{
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+   padding: 10px 20px;
+   transition: 0.5s;
+   cursor: pointer;
+}
+
+nav ul li a:hover{
+    background-color: gray;
+    color: tomato;
+    border-radius: 5px;
+}
+/* nav section code end  */
+/* contact form code start */
+form{
+    max-width: 800px;
+    margin: 80px auto;
+    background-color: lightpink;
+    padding: 40px 0;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black;
+}
+
+form h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-container input{
+   display: block;
+   margin: 10px auto;
+   width: 250px;
+   height: 20px;
+   border: none;
+   padding: 5px 10px;
+   border-radius: 5px;
+}
+
+form textarea{
+    display: block;
+    margin: 30px auto;
+    width: 250px;
+    height: 50px;
+    border: none;
+
+}
+
+.btn{
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+}
+
+.btn:hover{
+    background-color: #02a302;
+    color: white;
+}
+/* contact form code end */
